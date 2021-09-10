@@ -33,6 +33,9 @@ tbody tr:nth-child(even) td
 .center{
 	text-align: center;
 }
+.left{
+	text-align: left;
+}
 
 /* activity 1 */
 .smaller-image{
