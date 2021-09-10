@@ -2,6 +2,10 @@
 /* got this from coolors.co - please improve!
  https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
 */
+table{
+	border-collapse: collapse;
+	margin: 20px;
+}
 .center{
 	text-align: center;
 }
