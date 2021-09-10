@@ -25,7 +25,6 @@ th, td
 {
 	border: 5px solid black;
 	padding: .2em 1em .2em .5em;
-	text-align: left;
 	vertical-align: middle;
 }
 
@@ -33,9 +32,9 @@ tbody tr:nth-child(odd) td
 {
 	background-color: blue;
 }
-tbody tr:nth-child(odd) td
+tbody tr:nth-child(even) td
 {
-	background-color: lightblue;
+	background-color: rgb(89, 132, 146);
 }
 
 .center{
