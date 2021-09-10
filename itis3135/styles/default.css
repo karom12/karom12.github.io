@@ -33,6 +33,10 @@ tbody tr:nth-child(odd) td
 {
 	background-color: blue;
 }
+tbody tr:nth-child(odd) td
+{
+	background-color: lightblue;
+}
 
 .center{
 	text-align: center;
