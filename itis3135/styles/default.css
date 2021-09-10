@@ -2,13 +2,43 @@
 /* got this from coolors.co - please improve!
  https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
 */
-table{
+/* activity 2*/
+body
+{
+	width: 750px;
+	margin: 0 auto;
+}
+
+table
+{
 	border-collapse: collapse;
+	
 	margin: 20px;
 }
+
+thead
+{
+	background-color: blue;
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: lightblue;
+}
+
 .center{
 	text-align: center;
 }
+
+/* activity 1 */
 .smaller-image{
 	width: 400px;
 }
