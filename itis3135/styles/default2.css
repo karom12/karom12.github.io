@@ -1,4 +1,7 @@
-
+.button{
+    background-color: darkred;
+    color:hotpink;
+}
 .small{
  font-size: 25px;
  color: brown
