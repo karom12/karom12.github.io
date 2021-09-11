@@ -6,6 +6,10 @@
  font-size: 25px;
  color: brown
 }
+.monotone{
+    font-family: monospace;
+    color:brown 
+}
 body
 {
 	font-family: monospace;
