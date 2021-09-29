@@ -2,6 +2,19 @@
 /* got this from coolors.co - please improve!
  https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
 */
+/* Activity 3*/
+.button{
+    background-color: darkred;
+    color:hotpink;
+}
+.small{
+ font-size: 25px;
+ color: brown
+}
+.monotone{
+    font-family: monospace;
+    color:brown 
+}
 /* activity 2*/
 table
 {
