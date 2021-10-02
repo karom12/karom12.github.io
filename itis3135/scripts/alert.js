@@ -17,13 +17,15 @@ function weAreReal(){
     alert("We totally arent laundering money");
 
 }
-function quickMath(){
-    var a = prompt("Pick a number");
-    var b = prompt("Pick another number");
-    alert(a + b);
+function twoWords(){
+    var a = prompt("Pick a color");
+    var b = prompt("Pick a animal");
+    alert(a + "" + b);
 
 }
-function weSell(){
-    alert("We totally don't sell anything illegal");
-
+function verballyHurt(){
+    let rude = prompt("Pick a rude word");
+    let rude2 = prompt("Pick another rude word");
+    let rude3 = prompt("Pick any place");
+    alert("You "+ rude +", you are a " + rude2 +". Meet me by " + rude3 +".");
 }
