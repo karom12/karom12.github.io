@@ -1,7 +1,4 @@
-var name = prompt("The Ablazed Raccoon LLC would like your age because it is an adult only work site");
+var age = prompt("Enter your age to enter Ablazed Raccoon LLC site ");
+if( age >= 1){ alert("Welcome to the website");}
+else if (isNAN(age) && age < 1) {alert("Enter a number")}
 
-if(age <= 18)
-{
- alert("You are " + age + ". You may enter");
-}else{ prompt("The Ablazed Raccoon LLC would like your age because it is an adult only work site");;
-}
