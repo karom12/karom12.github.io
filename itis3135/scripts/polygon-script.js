@@ -1,6 +1,13 @@
 var age = prompt("Enter your age to enter Ablazed Raccoon LLC site ");
 do{
     var age = prompt("Enter your age to enter Ablazed Raccoon LLC site ");
+    if(age > 0){
+        alert("Welcome to the website, you are " + age);
+    }else if(age < 0){
+        alert("Error:Age can't be less than 0");
+    }else if(isNaN(age)){
+        alert("Error:Age must be a number");
+    }
 }
 while(age < 0 || isNaN(age));
 /*if(isNaN(age)){
