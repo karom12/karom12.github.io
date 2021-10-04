@@ -1,16 +1,17 @@
 var age = prompt("Enter your age to enter Ablazed Raccoon LLC site ");
-do{
+do{/*It tests to make sure whther or not the while loop will be needed*/
     var age = prompt("Enter your age to enter Ablazed Raccoon LLC site ");
-    if(age > 0){
+    if(age > 0){/*it returns true if its a proper number for age*/
         alert("Welcome to the website, you are " + age);
-    }else if(age < 0){
+    }else if(age < 0){/*if user inputs a negative, will remake prompt also alert if user inputs a negative*/
         alert("Error:Age can't be less than 0");
-    }else if(isNaN(age)){
+    }else if(isNaN(age)){/*same job but for if the user puts in anything other than a number*/
         alert("Error:Age must be a number");
     }
 }
 while(age < 0 || isNaN(age));
-/*if(isNaN(age)){
+/* product of try and fail
+if(isNaN(age)){
     alert("Error:Age must be a number");
 }else if(age < 0){
     do{
