@@ -45,7 +45,6 @@ function getShape(){
 }
     else if (parseInt(sides) == 10){alert("decagon");}
 }
-getShape();
 function validateEntry(){
 var entry = entry.getShape();
 if(entry >= 1 && entry <= 10 ){
