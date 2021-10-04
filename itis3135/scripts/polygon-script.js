@@ -6,25 +6,25 @@ else if (isNAN(age)){ prompt("Error:Enter your age to enter Ablazed Raccoon LLC 
 
 function getShape(){
     var sides = prompt("Enter a number between 1 and 10");
-    if (parse(sides) == 1){alert("henagon");
+    if (parseInt(sides) == 1){alert("henagon");
 }
-    else if (parse(sides) == 2){alert("digon");
+    else if (parseInt(sides) == 2){alert("digon");
 }
-    else if (parse(sides) == 3){alert("trigon");
+    else if (parseInt(sides) == 3){alert("trigon");
 }
-    else if (parse(sides) == 4){alert("tetragon");
+    else if (parseInt(sides) == 4){alert("tetragon");
 }
-    else if (parse(sides) == 5){alert("pentagon");
+    else if (parseInt(sides) == 5){alert("pentagon");
 }
-    else if (parse(sides) == 6){alert("hexagon");
+    else if (parseInt(sides) == 6){alert("hexagon");
 }
-    else if (parse(sides) == 7){alert("heptagon");
+    else if (parseInt(sides) == 7){alert("heptagon");
 }
-    else if (parse(sides) == 8){alert("octagon");
+    else if (parseInt(sides) == 8){alert("octagon");
 }
-    else if (parse(sides) == 9){alert("enneagon");
+    else if (parseInt(sides) == 9){alert("enneagon");
 }
-    else if (parse(sides) == 10){alert("decagon");}
+    else if (parseInt(sides) == 10){alert("decagon");}
 }
 function validateEntry(){
     var entry = 0;
