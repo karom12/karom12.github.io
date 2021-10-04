@@ -1,9 +1,9 @@
 var age = prompt("Enter your age to enter Ablazed Raccoon LLC site ");
 while(age > 0){
     alert("Welcome to the website, you are "+ age);
-} if(isNAN(age)){
+if(isNAN(age))break;
     alert("Error: Not a number, please enter a number");
-} else if(age < 0){
+if(age < 0)break;
     alert("Error: Age can't be less than 0(obviously you know why)");
 }
 /*if(isNaN(age)){
