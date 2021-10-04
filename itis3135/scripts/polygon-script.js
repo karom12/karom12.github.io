@@ -47,12 +47,11 @@ function getShape(){
 }
 getShape();
 function validateEntry(){
-
+var entry = entry.getShape();
 if(entry >= 1 && entry <= 10 ){
         alert("Valid");
-}else{
+}else if(entry <= 0 || entry >= 11){
         alert("Not Valid");  
 }
-    
 }
 validateEntry();
