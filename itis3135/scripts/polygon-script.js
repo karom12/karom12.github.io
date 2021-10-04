@@ -4,6 +4,7 @@ while(age > 0){
 if(isNAN(age) || age < 0){
     alert("Error: Not a number or actual real number, please enter a number");
 }
+}
 /*if(isNaN(age)){
     alert("Error:Age must be a number");
 }else if(age < 0){
