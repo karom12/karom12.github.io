@@ -1,11 +1,22 @@
 var age = prompt("Enter your age to enter Ablazed Raccoon LLC site ");
-if(isNaN(age)){
-    alert("Age must be a number");
+while(age > 0){
+    alert("Welcome to the website, you are "+ age);
+} if(isNAN(age)){
+    alert("Error: Not a number, please enter a number");
+} else if(age < 0){
+    alert("Error: Age can't be less than 0(obviously you know why)");
+}
+/*if(isNaN(age)){
+    alert("Error:Age must be a number");
 }else if(age < 0){
-    alert("Age can't be less than 0");
+    do{
+        alert("Error:Age can't be less than 0");
+    }
+    alert("Error:Age can't be less than 0");
 }else{
     alert("Welcome to the website, you are " + age);
-}
+}*/
+
 function getShape(){
     var sides = prompt("Enter a number between 1 and 10");
     if (parseInt(sides) == 1){alert("henagon");
